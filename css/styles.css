@@ -25,23 +25,23 @@ background: #ECECEC;
 
 }
 body {
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0,03em;
-    color:#212121 ;
+    color:var(--primary-text-color) ;
 }
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: var(--primary-text-color);
+    color: inherit;
 }
 .logo span{
-    font-family: Relaway;
+    font-family: Relaway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -51,7 +51,7 @@ body {
 
 li{
     list-style-type: none;
-}
+}   
 a{
     text-decoration: none;
 }
@@ -61,11 +61,12 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--primary-text-color);
+color: inherit;
 }
 .site-nav a:hover,
 .site-nav a:focus{
     color: var(--logo-span-color);
+    cursor: pointer;
 }
 .auth-nav a{   
 font-style: normal;
@@ -77,6 +78,7 @@ color: var(--contact-links-color);
 .auth-nav a:hover,
 .auth-nav a:focus{
     color: var(--logo-span-color);
+    cursor: pointer;
 }
 .hero{
 background: var(--hero-background-color);
@@ -104,6 +106,7 @@ background: var(--hero-background-color);
     letter-spacing: 0.06em;
     background-color: var(--logo-span-color);
     color: var(--hero-text-color);
+    cursor: pointer;
 }
 .adventeges h3{
     
@@ -112,7 +115,7 @@ background: var(--hero-background-color);
     font-size: 14px;
     line-height: 1.14x;
     text-transform: uppercase;
-    color: var(--primary-text-color);
+    color: inherit;
 }
 .text-p{      
     font-style: normal;
@@ -127,7 +130,7 @@ background: var(--hero-background-color);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--primary-text-color);
+    color: inherit;
 }
 .team-section{
     font-style: normal;
@@ -135,13 +138,13 @@ background: var(--hero-background-color);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    color: var(--primary-text-color);
+    color: inherit;
 }
 .team-section h3{
     font-style: normal;
     font-size: 16px;
     line-height: 1.19;
-    color: var(--primary-text-color);
+    color: inherit;
 }
 .team-section p{
     font-style: normal;
@@ -155,7 +158,7 @@ background: var(--hero-background-color);
 
 }
 .logo-footer {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -163,7 +166,7 @@ background: var(--hero-background-color);
     color: var(--hero-text-color);
 }
 .logo-footer span{
-    font-family: Relaway;
+    font-family: Relaway, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -189,18 +192,19 @@ background: var(--hero-background-color);
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    color: var(--primary-text-color);
+    color: inherit;
     background-color:var(--portfolio-buttons-background-color);
 }
 .filler-buttons:hover,
 .filler-buttons:focus{
     color: var(--hero-text-color);
     background: #2196F3;
+    cursor: pointer;
 }
 .portfolio-projects h2{
     font-style: normal;
     font-weight: 900;
-font-size: 18px;
+    font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-text-color);
