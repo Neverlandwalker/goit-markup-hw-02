@@ -38,13 +38,13 @@ body {
 }
 .logo {
     font-family: Raleway, sans-serif;
-    
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     color: var(--primary-text-color);
 }
 .logo-colour {
+    
     color: var(--logo-span-color);
 }
 
@@ -55,7 +55,7 @@ a{
     text-decoration: none;
 }
 .site-nav {
-
+font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -67,8 +67,13 @@ color: var(--primary-text-color);
     color: var(--logo-span-color);
     cursor: pointer;
 }
-.auth-nav{   
+.site-nav-curent{
+    color:var(--logo-span-color)
+}
 
+.auth-nav{   
+font-style: normal;
+font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -83,8 +88,7 @@ color: var(--contact-links-color);
 background: var(--hero-background-color);
 }
 .hero-text{
-    
-    
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -93,22 +97,25 @@ background: var(--hero-background-color);
     text-transform: uppercase;
     color: var(--hero-text-color);
 }
+.button-block{
+    
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
 .hero-button{
     
-    
-    font-weight: 900;
+    font-style: normal;
+    font-weight: bold;
     font-size: 16px;
-    line-height: 1.87;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    line-height: 1,87;
     letter-spacing: 0.06em;
-    background-color: var(--logo-span-color);
+    background-color: var(--filler-colour);
     color: var(--hero-text-color);
-    cursor: pointer;
+
 }
 .adventeges-header-text{
-    
+    font-style: normal;
     font-weight: 900;
     font-size: 14px;
     line-height: 1.14;
@@ -123,7 +130,7 @@ background: var(--hero-background-color);
 }
 .what-we-do{
     
-    
+    font-style: normal;
     font-weight: 900;
     font-size: 36px;
     line-height: 1.17;
@@ -186,6 +193,7 @@ background: var(--hero-background-color);
     text-align: center;
     color: var(--primary-text-color);
     background-color: var(--portfolio-buttons-background-color);
+    border-radius: 4px;
 }
 .filler-buttons:hover,
 .filler-buttons:focus{
