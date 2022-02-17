@@ -29,7 +29,6 @@ background: #ECECEC;
 
 body {
     font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -56,7 +55,6 @@ a{
     text-decoration: none;
 }
 .site-nav {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -73,7 +71,6 @@ color: var(--primary-text-color);
 }
 
 .auth-nav{   
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -106,7 +103,7 @@ background: var(--hero-background-color);
 }
 .hero-button{
     
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 16px;
     line-height: 1,87;
@@ -116,27 +113,37 @@ background: var(--hero-background-color);
 
 }
 .adventeges-header-text{
-    font-style: normal;
+    
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: inherit;
 }
 .adventeges-text{      
-    font-style: normal;
+    
     font-size: 14px;
     line-height: 1.71;
     color: var(--contact-links-color);
 }
 .what-we-do{
     
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em ;
     color: inherit;
+}
+.what-we-do-header{
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--primary-text-color);
 }
 .team-section{
    
@@ -144,12 +151,24 @@ background: var(--hero-background-color);
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+    letter-spacing: ;
     color: inherit;
+}
+.team-section-header{
+    
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--primary-text-color);
 }
 .team-header-text{
     font-weight: 500 ;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: inherit;
 }
 .team-text{
@@ -157,6 +176,7 @@ background: var(--hero-background-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--contact-links-color);
 }
 .footer{
@@ -169,6 +189,7 @@ background: var(--hero-background-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     color: var(--hero-text-color);
 }
 .logo-footer-colour{
@@ -192,6 +213,7 @@ background: var(--hero-background-color);
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--primary-text-color);
     background-color: var(--portfolio-buttons-background-color);
     border-radius: 4px;
@@ -214,5 +236,6 @@ background: var(--hero-background-color);
     
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
     color: var(--contact-links-color);
 }
